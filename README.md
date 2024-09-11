@@ -2,9 +2,9 @@
 
 
 
-# 🔐 Dynamic AES File Encryptor/Decryptor
+# 🔐 RansomUwu
 
-Welcome to the **Dynamic AES File Encryptor/Decryptor** repository! This project provides a Rust-based application that demonstrates advanced techniques in file encryption and decryption using AES-256. The application includes dynamic library loading for AES functions, basic obfuscation techniques, and timing evasion strategies.
+Welcome to the **RansomUwu** repository! This project provides a Rust-based application that demonstrates techniques in file encryption and decryption using AES-256. The application includes dynamic library loading for AES functions, basic obfuscation techniques, and timing evasion strategies.
 
 ## 📦 Features
 
@@ -25,8 +25,8 @@ Welcome to the **Dynamic AES File Encryptor/Decryptor** repository! This project
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/dynamic-aes-encryptor.git
-    cd dynamic-aes-encryptor
+    git clone https://github.com/yourusername/rust-basic-ransomw.git
+    cd rust-basic-ransomw.git
     ```
 
 2. **Build the project**:
@@ -71,11 +71,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Author
 
-- **Your Name** - [yourusername](https://github.com/yourusername)
+- **Your Name** - [yourusername](https://github.com/nexxus67)
 
 ## 📧 Contact
 
-For any questions or concerns, please reach out to [your.email@example.com](mailto:your.email@example.com).
+For any questions or concerns, please reach out via XMPP+OMEMO [nxs67@jabber.calyxinstitute.org](mailto:nxs67@jabber.calyxinstitute.com).
 
 ---
 
