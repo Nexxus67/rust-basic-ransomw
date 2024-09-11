@@ -69,9 +69,6 @@ Welcome to the **RansomUwu** repository! This project provides a Rust-based appl
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Author
-
-- **Your Name** - [yourusername](https://github.com/nexxus67)
 
 ## 📧 Contact
 
